@@ -105,7 +105,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                   }}
                   className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12 z-0"
                 />
-                <img src="/logo.png" alt="logo" className="w-12 h-12 z-10 " />
+                <img src="./ctm-01.png" alt="logo" className="w-12 h-12 z-10 " />
                 <div className="absolute inset-0  border border-blue-400/20 pointer-events-none" />
               </motion.div>
             </div>
@@ -113,7 +113,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
               className="text-lg font-bold tracking-wider font-heading"
               style={{ color: "#ffffff" }}
             >
-              ALIX
+              CTM
             </h1>
           </div>
           {/* Mobile Close Button */}
@@ -190,13 +190,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <span className="text-[13px] font-medium">Logout</span>
           </button>
 
-          <div
-            className="text-xs px-3"
-            style={{ color: theme.colors.sidebar.text }}
-          >
-            <p className="font-medium">Version 1.0.0</p>
-            <p className="opacity-70 mt-1">© 2026 Alix</p>
-          </div>
+
         </div>
       </aside>
     </>

@@ -9,10 +9,10 @@ export const MENU_ITEMS: MenuItem[] = [
     icon: 'LayoutDashboard',
   },
   {
-    id: 'location',
-    label: 'Location',
-    href: '/location',
-    icon: 'MapPin',
+    id: 'assistant',
+    label: 'Assistant',
+    href: '/assistant',
+    icon: 'Bot',
   }, {
     id: 'reports',
     label: 'Reports',
@@ -22,7 +22,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'users',
     label: 'Users',
     href: '/users',
-    icon: 'Avatar',
+    icon: 'Users',
   },
 
 ];

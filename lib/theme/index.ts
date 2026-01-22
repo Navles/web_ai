@@ -20,7 +20,7 @@ export const theme = {
       text: '#e2e8f0',
       textHover: '#ffffff',
       border: '#0C3E84',
-      active: '#0052cc', 
+      active: '#0052cc',
     },
     background: {
       main: '#f8fafc',
